@@ -1,6 +1,6 @@
 %algorithm: Gauss Seidel Iteration Algorithm
 %author: Atharv Darekar
-function X = GS_iter(n,A,X) %gets number of unknowns, diagonally dominant coefficient matrix and solution vector
+function X = iter(n,A,X) %gets number of unknowns, diagonally dominant coefficient matrix and solution vector
   for i=1:n
     d=0; %difference variable
     for j=1:n
